@@ -90,6 +90,18 @@ Smaller libraries and tools I wrote to practise across languages. Each has tests
 
 ---
 
+### 🔐 Security
+
+Defensive / educational security tools — I built these to understand the standards properly, not as black boxes.
+
+| Repo | Language | What it is |
+|---|---|---|
+| [otpkit](https://github.com/roekdee/otpkit) | Go | HOTP/TOTP (RFC 4226 / 6238) for 2FA — tested against the official RFC vectors |
+| [secret-scanner](https://github.com/roekdee/secret-scanner) | Go | Scans a codebase for hardcoded secrets (regex + entropy); exits non-zero, so it works as a CI gate |
+| [pwaudit](https://github.com/roekdee/pwaudit) | Python | Password strength + breach check via HaveIBeenPwned **k-anonymity** — the password never leaves your machine |
+
+---
+
 <div align="left">
-<sub>📫 <b>roekdee.tk@gmail.com</b> · open to full-stack / frontend roles</sub>
+<sub>📫 <b>roekdee.tk@gmail.com</b> · open to full-stack / frontend / security-minded roles</sub>
 </div>
