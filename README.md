@@ -57,6 +57,11 @@ A vocabulary trainer built around an **SM-2 spaced-repetition algorithm** (the s
 
 `Vanilla JS` · `Google Apps Script` · `Spaced Repetition` · `GitHub Pages`
 
+#### ⚡ [Devkit — Developer Utilities](https://github.com/roekdee/devkit) · [live demo ↗](https://roekdee.github.io/devkit/)
+An **offline-first** toolbox of six dev utilities — JSON formatter, JWT decoder, Base64, UUID, timestamp, and hashing. Everything runs in the browser with **zero network calls** (hashing via the Web Crypto API). Built on a pluggable tool registry and shipped to GitHub Pages through a **GitHub Actions** pipeline.
+
+`React 19` · `TypeScript` · `Vite` · `Tailwind v4` · `CI/CD`
+
 ---
 
 ### 📊 GitHub
