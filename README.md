@@ -64,19 +64,6 @@ An **offline-first** toolbox of six dev utilities — JSON formatter, JWT decode
 
 ---
 
-### 📊 GitHub
-
-<div align="left">
-
-![Roekdee's GitHub stats](https://github-readme-stats.vercel.app/api?username=roekdee&show_icons=true&hide_border=true&theme=graywhite&count_private=true&include_all_commits=true&hide_title=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=roekdee&layout=compact&hide_border=true&theme=graywhite&langs_count=8)
-
-![GitHub streak](https://streak-stats.demolab.com?user=roekdee&hide_border=true&theme=graywhite)
-
-</div>
-
----
-
 <div align="left">
 <sub>📫 <b>roekdee.tk@gmail.com</b> · open to full-stack / frontend roles</sub>
 </div>
