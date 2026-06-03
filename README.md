@@ -1,14 +1,15 @@
 # Hi, I'm Roekdee 👋
 
-Full-stack web developer based in Bangkok 🇹🇭
+**Full-stack web developer based in Bangkok, Thailand.**
 
-I build for the web with **TypeScript, React and Next.js**, and I'm comfortable owning a feature end to end — the UI, the API, and the database behind it. Lately I've been working on warehouse / back-office systems and a couple of side projects.
+I build for the web with **TypeScript, React and Next.js**, and I like owning a feature end to end — the UI, the API, and the database underneath it. Recently that's meant warehouse / back-office (WMS) systems, plus a steady stream of side projects in other languages.
 
-I got into programming through **C++ game-server modding (FiveM)**, which is where I picked up most of my debugging instincts before moving over to web.
+I started out in **C++ game-server modding (FiveM)** — that's where I learned to read unfamiliar codebases and debug under pressure, long before I moved to the web.
 
-- 🔭 Currently working on back-office / WMS tooling in **Next.js + TypeScript**
-- 🌱 Going deeper on **Postgres, RLS and database-level security**
-- 💬 Ask me about **Next.js App Router, Supabase, or anything React**
+- 🔭 Building back-office / WMS tooling in **Next.js + TypeScript**
+- 🌱 Going deeper on **Postgres, Row Level Security, and database-level design**
+- 🧰 Comfortable across the stack — and happy to pick up a new language when the problem calls for it
+- 💬 Ask me about the **Next.js App Router, Supabase, or anything React**
 - 📫 Reach me at **roekdee.tk@gmail.com**
 
 ---
