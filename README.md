@@ -19,10 +19,16 @@ I got into programming through **C++ game-server modding (FiveM)**, which is whe
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 **Frontend**
 
@@ -61,6 +67,25 @@ A vocabulary trainer built around an **SM-2 spaced-repetition algorithm** (the s
 An **offline-first** toolbox of six dev utilities — JSON formatter, JWT decoder, Base64, UUID, timestamp, and hashing. Everything runs in the browser with **zero network calls** (hashing via the Web Crypto API). Built on a pluggable tool registry and shipped to GitHub Pages through a **GitHub Actions** pipeline.
 
 `React 19` · `TypeScript` · `Vite` · `Tailwind v4` · `CI/CD`
+
+---
+
+### 🧩 Open-source by language
+
+Small, focused libraries & tools I built to keep sharp across stacks — each one is real, tested, and **verified by CI on every push**.
+
+| Repo | Language | What it is |
+|---|---|---|
+| [shrtnr](https://github.com/roekdee/shrtnr) | Go | URL shortener HTTP service (stdlib, base62, race-tested) |
+| [RateGate](https://github.com/roekdee/RateGate) | C# | Thread-safe token-bucket rate limiter (async, virtual-clock tests) |
+| [expr4j](https://github.com/roekdee/expr4j) | Java | Shunting-yard math expression evaluator |
+| [lru-cache](https://github.com/roekdee/lru-cache) | C++ | Header-only O(1) LRU cache (CMake + GoogleTest) |
+| [slugify-rs](https://github.com/roekdee/slugify-rs) | Rust | Unicode→URL slug crate (clippy-clean, doc-tested) |
+| [semver-kt](https://github.com/roekdee/semver-kt) | Kotlin | Spec-correct SemVer 2.0.0 parser & comparator |
+| [SwiftSemVer](https://github.com/roekdee/SwiftSemVer) | Swift | SemVer parser as a Swift Package (builds on Linux & macOS) |
+| [retail-analytics-sql](https://github.com/roekdee/retail-analytics-sql) | SQL | Postgres analytics: window functions, RFM, CI-run queries |
+| [validate-lua](https://github.com/roekdee/validate-lua) | Lua | Declarative table-schema validator (busted tests) |
+| [logstats](https://github.com/roekdee/logstats) | Python | Access-log analytics CLI (pure stdlib, pytest) |
 
 ---
 
