@@ -55,38 +55,38 @@ I started out in **C++ game-server modding (FiveM)** — that's where I learned 
 ### 📌 Featured projects
 
 #### 🐾 [Katmuchi Cat Hotel](https://github.com/roekdee/katmuchi-cat-hotel)
-A cat-hotel website with a **real online booking system** and a password-gated admin dashboard. Built with the Next.js 15 App Router, React 19 and a hand-made Tailwind design system, backed by Supabase Postgres. Booking data and admin access are locked down with **Row Level Security and `SECURITY DEFINER` functions** — security lives in the database, not just the UI.
+A website and online booking system for a small cat hotel, with a password-protected admin page. Next.js 15 (App Router) + React 19 + Tailwind v4, with Supabase Postgres behind it. I used Row Level Security and `SECURITY DEFINER` functions so the anon key the browser holds can't read bookings — the access rules live in the database, not just the UI.
 
 `Next.js 15` · `React 19` · `TypeScript` · `Tailwind v4` · `Supabase`
 
 #### 🎓 [Oxford 3000 Flashcards](https://github.com/roekdee/FlashCard)
-A vocabulary trainer built around an **SM-2 spaced-repetition algorithm** (the scheduling idea behind Anki). The frontend is plain HTML/CSS/JS on GitHub Pages; the backend is a **serverless Google Apps Script + Google Sheets** API with per-user progress, an API-key check, and a CORS guard — so it runs at zero hosting cost.
+A flashcard trainer for the Oxford 3000, scheduled with the SM-2 algorithm (the idea Anki uses). Plain HTML/CSS/JS on GitHub Pages, with a Google Apps Script + Google Sheets backend so there's no server to run. Progress is saved per user.
 
 `Vanilla JS` · `Google Apps Script` · `Spaced Repetition` · `GitHub Pages`
 
 #### ⚡ [Devkit — Developer Utilities](https://github.com/roekdee/devkit) · [live demo ↗](https://roekdee.github.io/devkit/)
-An **offline-first** toolbox of six dev utilities — JSON formatter, JWT decoder, Base64, UUID, timestamp, and hashing. Everything runs in the browser with **zero network calls** (hashing via the Web Crypto API). Built on a pluggable tool registry and shipped to GitHub Pages through a **GitHub Actions** pipeline.
+The dev tools I kept opening random sites for — JSON formatter, JWT decoder, Base64, URL, UUID, timestamp, hashing — in one app. Runs in the browser (no backend), hashing via the Web Crypto API. Tools plug into a small registry, and it ships to GitHub Pages from a GitHub Actions workflow.
 
 `React 19` · `TypeScript` · `Vite` · `Tailwind v4` · `CI/CD`
 
 ---
 
-### 🧩 Open-source by language
+### 🧩 Other things I've built
 
-Small, focused libraries & tools I built to keep sharp across stacks — each one is real, tested, and **verified by CI on every push**.
+Smaller libraries and tools I wrote to practise across languages. Each has tests and a CI workflow that builds and runs them.
 
 | Repo | Language | What it is |
 |---|---|---|
-| [shrtnr](https://github.com/roekdee/shrtnr) | Go | URL shortener HTTP service (stdlib, base62, race-tested) |
-| [RateGate](https://github.com/roekdee/RateGate) | C# | Thread-safe token-bucket rate limiter (async, virtual-clock tests) |
-| [expr4j](https://github.com/roekdee/expr4j) | Java | Shunting-yard math expression evaluator |
-| [lru-cache](https://github.com/roekdee/lru-cache) | C++ | Header-only O(1) LRU cache (CMake + GoogleTest) |
-| [slugify-rs](https://github.com/roekdee/slugify-rs) | Rust | Unicode→URL slug crate (clippy-clean, doc-tested) |
-| [semver-kt](https://github.com/roekdee/semver-kt) | Kotlin | Spec-correct SemVer 2.0.0 parser & comparator |
-| [SwiftSemVer](https://github.com/roekdee/SwiftSemVer) | Swift | SemVer parser as a Swift Package (builds on Linux & macOS) |
-| [retail-analytics-sql](https://github.com/roekdee/retail-analytics-sql) | SQL | Postgres analytics: window functions, RFM, CI-run queries |
-| [validate-lua](https://github.com/roekdee/validate-lua) | Lua | Declarative table-schema validator (busted tests) |
-| [logstats](https://github.com/roekdee/logstats) | Python | Access-log analytics CLI (pure stdlib, pytest) |
+| [shrtnr](https://github.com/roekdee/shrtnr) | Go | URL shortener service — stdlib only, base62 IDs |
+| [RateGate](https://github.com/roekdee/RateGate) | C# | Token-bucket rate limiter (sync + async) |
+| [expr4j](https://github.com/roekdee/expr4j) | Java | Math expression evaluator (shunting-yard) |
+| [lru-cache](https://github.com/roekdee/lru-cache) | C++ | Header-only O(1) LRU cache |
+| [slugify-rs](https://github.com/roekdee/slugify-rs) | Rust | Turns text into URL slugs |
+| [semver-kt](https://github.com/roekdee/semver-kt) | Kotlin | SemVer 2.0.0 parser & comparator |
+| [SwiftSemVer](https://github.com/roekdee/SwiftSemVer) | Swift | SemVer parser as a Swift package |
+| [retail-analytics-sql](https://github.com/roekdee/retail-analytics-sql) | SQL | Postgres analytics — window functions, RFM |
+| [validate-lua](https://github.com/roekdee/validate-lua) | Lua | Table/schema validator |
+| [logstats](https://github.com/roekdee/logstats) | Python | Access-log analytics CLI |
 
 ---
 
